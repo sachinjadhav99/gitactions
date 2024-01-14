@@ -1,12 +1,11 @@
 def hello():
-    return "hi"
+    print("hi")
 
 
 def bye():
     print("bye")
 
 
-result = hello()
-print(result)
-bye()
+print(hello())
+print(bye())
 
